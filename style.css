@@ -1,1 +1,9 @@
 @import url('https://fonts.google.com/specimen/Karla');
+
+*{
+    font: 'Karla';
+}
+
+body{
+    background-color: black;
+}
