@@ -5,14 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Contact form</title>
 </head>
 <body>
-  <div class="main">
-    <div class="form">
-      <p>Contact Us</p>
+  <form>
+    <h2>Contact Us</h2>
+    <div class="container">
+      <div class="input-field">
+        <label for="fName">First Name</label><br>
+        <input type="text" id="fName" required>
+      </div>
+  
+      <div class="input-field">
+        <label for="lName">Last Name</label><br>
+        <input type="text" id="lName" required>
+      </div>
     </div>
-  </div>
+
+  </form>
 </body>
 </html>
